@@ -58,12 +58,20 @@ ul li {
 }
 
 .newsletter {
-  background-color: #ffffff;
+  background-color: #fff8f0;
   text-align: center;
   padding: 20px;
   border-radius: 5px;
   margin: 20px 0;
   border: 1px solid #ff6347;
+}
+
+.insc {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
 }
 
 footer {
