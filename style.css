@@ -11,23 +11,35 @@ body {
   color: #333;
 }
 
-header {
-  background-color: #451616;
-  color: white;
-  padding: 20px;
+.title {
   text-align: center;
+  font-size: 28px;
 }
 
-header nav a {
-  margin: 0 15px;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+header {
+  background-color: #7b2828;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-header nav a:hover {
-  color: #ff6347;
-}
+.nav-links {
+      display: flex;
+      gap: 2rem;
+    }
+
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #b6b08c;
+    }
 
 section {
   padding: 30px;
@@ -71,6 +83,12 @@ ul li {
   text-decoration: none;
   border-radius: 3px;
   transition: background-color 0.3s ease;
+}
+
+.gallery {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
 }
 
 footer {
