@@ -82,7 +82,7 @@ ul li {
   color: rgb(0, 0, 0);
   text-decoration: none;
   border-radius: 3px;
-  transition: background-color 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .gallery {
