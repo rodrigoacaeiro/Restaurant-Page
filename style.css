@@ -26,20 +26,20 @@ header {
 }
 
 .nav-links {
-      display: flex;
-      gap: 2rem;
-    }
+  display: flex;
+  gap: 2rem;
+}
 
-    .nav-links a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: 500;
-      transition: color 0.3s ease;
-    }
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
 
-    .nav-links a:hover {
-      color: #b6b08c;
-    }
+.nav-links a:hover {
+  color: #b6b08c;
+}
 
 section {
   padding: 30px;
